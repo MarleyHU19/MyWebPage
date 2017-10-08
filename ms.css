@@ -1,0 +1,56 @@
+#topnav li {
+    display: inline
+}
+#topnav a {
+    background:#ABCDEF
+    text-decoration: none;
+    float: left
+    width: 100px;
+    text-align:center;
+    border-right: 1px solid #ffffff;   
+}
+
+h1{
+    background-color: #170101;
+    color: azure;
+    font-size: 50px;
+    line-height: 3;
+        
+}
+div{
+    font-size: 20px;
+    word-spacing: 12px;
+    background-color: aliceblue;
+    color: black;
+    text-align: left
+        
+}
+img{
+    border-right: solid 1px ;
+    width: 28%;
+    height: 50%
+    border-right: solid;
+    float: left;
+}
+h2{
+    display: inline;
+    float: left;
+    width:50%;
+}
+.information {
+    font-weight: 300;
+    display: inline;
+    float: right;
+    width:50%;
+}
+h3 b{
+    font-size: 35px;
+    background-color: aquamarine;
+}
+h3,img {
+    display: inline;
+}
+*{
+    margin: auto;
+    padding: 1px
+}
