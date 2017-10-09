@@ -9,6 +9,13 @@
     text-align:center;
     border-right: 1px solid #ffffff;   
 }
+#topnav {
+    font-size: 20px;
+    word-spacing: 12px;
+    background-color: aliceblue;
+    color: black;
+    text-align: left;
+}
 
 h1{
     background-color: #170101;
@@ -17,40 +24,41 @@ h1{
     line-height: 3;
         
 }
-div{
-    font-size: 20px;
-    word-spacing: 12px;
-    background-color: aliceblue;
-    color: black;
-    text-align: left
+
+img{
+    width: 100%;
+    height: 50%;
+    display: inline;
         
 }
-img{
-    border-right: solid 1px ;
-    width: 28%;
-    height: 50%
-    border-right: solid;
-    float: left;
-}
-h2{
-    display: inline;
-    float: left;
-    width:50%;
-}
-.information {
-    font-weight: 300;
-    display: inline;
-    float: right;
-    width:50%;
-}
-h3 b{
+b{
     font-size: 35px;
     background-color: aquamarine;
 }
-h3,img {
+h2 {
     display: inline;
+    padding: 2px
+}
+body {
+    overflow-y: scroll;
 }
 *{
     margin: auto;
-    padding: 1px
+    padding: 1px;
+}
+.slider {
+    position:absolute;
+    margin: auto
+}
+ .mySlides {
+    border-right: solid 1px ;
+    width: 28%;
+    height: 50%;
+    float: left;
+    display:inline;
+}
+#info{
+    display: inline;
+    position: absolute;
+    width: 100%
 }

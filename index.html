@@ -15,15 +15,55 @@
     <li><a href=" ">Courses</a>
     <li><a href=" ">Professional Activities</a>
     <li><a href=" ">Personal</a>
-    </div>
-        
+     </div> 
        </h1>
-           <img src="promo307189764.jpg" border-style= solid>
-    <hr>
+          
          
-        <h3><b>Marley Reyna</b> <br>
+          
+            <div class="mySlides">
+            <img src="im1.png"  border-style= solid><hr>
+            </div>
+           
+           <div class="mySlides"> 
+           <img src="img5.jpg"  border-style= solid>
+           </div>
+           
+           <div class="mySlides">
+           <img src="img3.jpg" border-style= solid>
+           </div>
+           
+           <div class="mySlides">
+           <img src="img4.jpg"  border-style= solid>
+            </div>
+           
+
+       <script type="text/javascript">
+         var slideIndex = 0;
+           rotate();
+
+           function rotate() {
+               var i;
+                var x = document.getElementsByClassName("mySlides");
+    
+               for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+                }
+                
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(rotate, 2000); 
+            }
+         </script>
+         
+ 
+          <div id="info"><b>Marley Reyna</b> <br>
                Title-  Computer Science Major<br>
-               Brief into- From Silver Spring MD,<br>
-               Contact info-  Marley.reyna@gmail.com<br><hr>
-         </h3>
+               Brief into- From Silver Spring, MD<br>
+               Contact info-  Marley.reyna@gmail.com<br>
+            <hr>
+            </div> 
+    </body>
+</html>
+        
          
