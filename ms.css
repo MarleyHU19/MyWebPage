@@ -7,7 +7,8 @@
     float: left
     width: 100px;
     text-align:center;
-    border-right: 1px solid #ffffff;   
+    border-right: 1px solid #ffffff; 
+    
 }
 #topnav {
     font-size: 20px;
@@ -35,16 +36,13 @@ b{
     font-size: 35px;
     background-color: aquamarine;
 }
-h2 {
-    display: inline;
-    padding: 2px
-}
+
 body {
     overflow-y: scroll;
 }
 *{
     margin: auto;
-    padding: 1px;
+    padding: 5px;
 }
 .slider {
     position:absolute;
@@ -60,5 +58,5 @@ body {
 #info{
     display: inline;
     position: absolute;
-    width: 100%
+    width: 70%
 }
